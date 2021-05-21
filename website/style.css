@@ -1,0 +1,81 @@
+body {
+  background: #fffff8;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #f23557;
+  color: #f0d43a;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+}
+
+.headline {
+  font-size: 40px;
+  margin: 20px 0 10px;
+}
+
+#app {
+  width: 400px;
+  margin: 0 auto;
+}
+
+label,
+textarea {
+  display: block;
+  width: 97%;
+  resize: none;
+  outline: none;
+}
+input,
+textarea {
+  color: #f0d43a;
+  width: 97% !important;
+  font-size: 18px;
+  font-family: "Oswald", sans-serif;
+  background-color: rgba(3, 1, 1, 0.377);
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  background-color: rgba(3, 1, 1, 0.185);
+}
+
+button,
+input {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 0;
+  margin: 10px 0;
+  background: #3b4a6b;
+  color: #f0d43a;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+  transition: all ease-in-out 0.1s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 1;
+}
+
+#entryHolder {
+  background-color: #f0d43a;
+  padding: 15px;
+  color: #3b4a6b;
+  padding: 30px;
+}
+
+#entryHolder div {
+  border: 2px solid #3b4a6b;
+  border-width: 2px 0 0 2px;
+  margin-bottom: 10px;
+  padding: 0 3px;
+}
